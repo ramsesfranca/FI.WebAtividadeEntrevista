@@ -1,0 +1,7 @@
+SELECT 
+	c.*
+	--, b.*
+FROM dbo.CLIENTES c
+     --INNER JOIN dbo.BENEFICIARIOS b ON c.ID = b.IDCLIENTE;
+
+SELECT b.* FROM dbo.BENEFICIARIOS b;
